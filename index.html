@@ -139,7 +139,7 @@
             <div class="row">
           
                 <div class="col-md-6 col-sm-6 portfolio-item">
-                    <a href="#jobba-som-motesbokare-it" class="portfolio-link" data-toggle="modal">
+                    <a href="#jobba-som-kundansvarig-it" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
@@ -246,7 +246,7 @@
 
 
 
-    <div class="portfolio-modal modal fade" id="jobba-som-motesbokare-it" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="jobba-som-kundansvarig-it" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -365,7 +365,9 @@
       $(document).ready(function() {
           if(window.location.hash) {
             var hash = window.location.hash;
-            var hash = window.location.hash;
+            if (hash == "#jobba-som-motesbokare-it") {
+                hash = "#jobba-som-kundansvarig-it"
+            }
             $(hash).modal('show');
           }
       });
