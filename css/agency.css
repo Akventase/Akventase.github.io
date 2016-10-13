@@ -21,6 +21,12 @@ p {
 p.large {
 	font-size: 16px
 }
+p.extra-large {
+	font-size: 20px;
+	line-height: 1.5
+}
+
+
 a, a:hover, a:focus, a:active, a.active {
 	outline: 0
 }
